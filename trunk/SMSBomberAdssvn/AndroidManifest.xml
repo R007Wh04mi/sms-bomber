@@ -19,10 +19,6 @@
 			</intent-filter>
 		</activity>
 
-		<activity android:name="org.baole.core.ContactPicker3"
-			android:label="@string/select_contacts" />
-		<activity android:name="org.baole.core.ContactPicker5"
-			android:label="@string/select_contacts" />
 		<activity android:name=".Preferences" />
 
 	</application>
