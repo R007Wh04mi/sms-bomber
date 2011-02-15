@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:myapp="http://schemas.android.com/apk/res/text.androidad3"
+	android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.admob.android.ads.AdView android:id="@+id/ad"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		myapp:backgroundColor="#000000" myapp:primaryTextColor="#FFFFFF"
+		myapp:secondaryTextColor="#CCCCCC" />
+
+	<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/th_set_menu_tabhost" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<TabWidget android:id="@android:id/tabs"
+			android:layout_width="fill_parent" android:layout_height="fill_parent" />
+		<FrameLayout android:id="@android:id/tabcontent"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:paddingTop="65px">
+			<LinearLayout android:id="@+id/grid_set_menu_page1"
+				android:orientation="horizontal" android:layout_width="fill_parent"
+				android:layout_height="fill_parent">
+			</LinearLayout>
+			<LinearLayout android:id="@+id/grid_set_menu_page2"
+				android:orientation="horizontal" android:layout_width="fill_parent"
+				android:layout_height="fill_parent">
+			</LinearLayout>
+		</FrameLayout>
+	</TabHost>
+</LinearLayout>

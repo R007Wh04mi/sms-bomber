@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="mobile">Mobile</string>
+	<string name="work">Work</string>
+	<string name="home">Home</string>
+	<string name="other">Other</string>
+	<string name="contacts">Contacts</string>
+	<string name="groups">Groups</string>
+	<string name="load_groups">Load Groups</string>
+	<string name="load_all_contacts">Load All Contacts</string>
+	<string name="selected_groups">Select groups</string>
+	<string name="select_contacts">Select contacts</string>
+	
+	<string name="PREF_CONTACT_SELECTOR">CONTACT_SELECTOR</string>
+	<string name="pref_contact_selector_default">0</string>
+	<string-array name="pref_contact_selector_entryvalues">
+		<item>0</item><!--
+		<item>1</item>
+		-->
+		<item>2</item>
+	</string-array>
+	<string-array name="pref_contact_selector_entries">
+		<item>Default number</item>
+		<!--
+			<item>Show number selector</item>
+		-->
+		<item>All mobile number(s)</item>
+	</string-array>
+	
+</resources>

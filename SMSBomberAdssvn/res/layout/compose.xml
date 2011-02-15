@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	xmlns:myapp="http://schemas.android.com/apk/res/text.androidad3"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+	<LinearLayout android:orientation="horizontal" android:id="@+id/container_ad"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<com.admob.android.ads.AdView android:id="@+id/ad" 
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			myapp:backgroundColor="#000000" myapp:primaryTextColor="#FFFFFF"
+			myapp:secondaryTextColor="#CCCCCC" />
+	</LinearLayout>
+
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:scrollbars="none">
+
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+			<TableLayout android:id="@+id/TableLayout01"
+				android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<TableRow android:id="@+id/TableRow01"
+					android:layout_width="fill_parent" android:layout_height="wrap_content">
+					<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+						android:layout_weight="1" android:layout_width="fill_parent"
+						android:layout_height="fill_parent">
+
+						<AutoCompleteTextView
+							android:completionThreshold="1" android:id="@+id/txtContact"
+							android:layout_width="fill_parent" android:hint="@string/type_a_number" android:layout_height="wrap_content"/>
+
+						<Button android:layout_height="fill_parent"
+							android:background="#AA000000" android:textColor="#ffffffff"
+							android:text="x" android:id="@+id/btnClear"
+							android:layout_gravity="right|center" android:layout_width="35px" />
+
+					</FrameLayout>
+					<ImageButton android:id="@+id/btnPhoneNo"
+						android:layout_width="fill_parent" android:inputType="none" android:layout_height="wrap_content"/>
+
+				</TableRow>
+			</TableLayout>
+			<TextView android:id="@+id/txtSelectedContact"
+				android:layout_width="fill_parent" android:text=""
+				android:layout_height="wrap_content" android:minHeight="0px"
+				android:maxLines="3" android:scrollbars="vertical" />
+			<!--
+				<ScrollView android:layout_width="fill_parent"
+				android:layout_height="fill_parent"> </ScrollView>
+			-->
+			<EditText android:id="@+id/txtMessage" android:layout_width="fill_parent"
+				android:hint="@string/type_a_sms" android:maxLines="3"
+				android:layout_height="wrap_content" android:minLines="2"
+				android:inputType="textShortMessage|textAutoCorrect|textCapSentences|textMultiLine"
+				android:maxLength="1000" android:imeOptions="actionSend|flagNoEnterAction" />
+
+			<TableLayout android:id="@+id/TableLayout01"
+				android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<TableRow android:id="@+id/TableRow01"
+					android:layout_width="fill_parent" android:layout_height="wrap_content">
+					<TextView android:text="@string/message_count" android:id="@+id/TextView01"
+						android:layout_width="fill_parent" android:layout_height="wrap_content"
+						android:layout_weight="0.5" />
+					<TextView android:text="@string/interval" android:id="@+id/TextView02"
+						android:layout_width="fill_parent" android:layout_height="wrap_content"
+						android:layout_weight="0.5" />
+				</TableRow>
+				<TableRow android:id="@+id/TableRow02"
+					android:layout_width="fill_parent" android:layout_height="wrap_content">
+					<EditText android:text="" android:id="@+id/txtMsgCount"
+						android:layout_width="fill_parent" android:layout_weight="0.5"
+						android:layout_height="wrap_content" android:inputType="number" />
+					<Spinner android:id="@+id/spnInterval"
+						android:layout_width="fill_parent" android:layout_weight="0.5"
+						android:layout_height="wrap_content" android:entries="@array/interval_entries"></Spinner>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow03"
+					android:layout_width="fill_parent" android:layout_height="wrap_content">
+					<Button android:id="@+id/btnCancel" android:layout_width="fill_parent"
+						android:layout_height="wrap_content" android:text="@string/cancel"
+						android:layout_weight="0.5" />
+					<Button android:id="@+id/btnSend" android:layout_width="fill_parent"
+						android:layout_height="wrap_content" android:text="@string/send"
+						android:layout_weight="0.5" />
+				</TableRow>
+			</TableLayout>
+			<LinearLayout android:orientation="vertical" android:id="@+id/container_ad2"
+				android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<!--
+					<com.admob.android.ads.AdView android:id="@+id/adcenter"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					myapp:backgroundColor="#000000" myapp:primaryTextColor="#FFFFFF"
+					myapp:secondaryTextColor="#CCCCCC" />
+				-->
+			</LinearLayout>
+			<ProgressBar android:id="@+id/progressSend"
+				style="?android:attr/progressBarStyleHorizontal"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+			<TextView android:id="@+id/txtInfo" android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:text="You may be charged SMS fee. I am not responsible for how you use this application so don't get in trouble!. This is still BETA version, feel free to contact dev. for any sugestion. Thanks."/>
+			<!--
+				<TextView android:id="@+id/txtInfo"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:text="Free version
+				limits to 100 SMS a time. You may be charged SMS fee. I am not
+				responsible for how you use this application so don't get in
+				trouble!" />
+			-->
+		</LinearLayout>
+	</ScrollView>
+
+</LinearLayout>
+

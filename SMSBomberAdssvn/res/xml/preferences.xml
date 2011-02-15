@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:selectable="true">
+	<CheckBoxPreference android:title="@string/save_sent_sms"
+		android:defaultValue="true" android:key="save_sent_sms"
+		android:summary="@string/save_sent_sms_sum"></CheckBoxPreference>
+	<ListPreference android:title="@string/contact_selector"
+		android:dialogTitle="Contact Selector" android:summary="@string/contact_selector_sum"
+		android:entryValues="@array/pref_contact_selector_entryvalues"
+		android:entries="@array/pref_contact_selector_entries" android:key="@string/PREF_CONTACT_SELECTOR"></ListPreference>
+
+	<CheckBoxPreference android:key="contact_hide_system_group"
+		android:summary="@string/hide_system_groups_sum" android:title="@string/hide_system_groups"></CheckBoxPreference>
+
+	<CheckBoxPreference android:defaultValue="true"
+		android:summaryOn="Unckeck to disable" android:title="Delivery Report"
+		android:summaryOff="Ckeck to enable" android:key="delivery_report" />
+	<CheckBoxPreference android:title="Split Long SMS"
+		android:defaultValue="true" android:key="split_long_sms"
+		android:summary="Split if message longer than 160 chars" />
+
+</PreferenceScreen>
