@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:id="@+id/menu_counter" android:title="Counter"  android:icon="@drawable/addicon"/>
+	<item android:id="@+id/menu_setting" android:title="Setting"  android:icon="@drawable/setting"/>
+	<item android:id="@+id/menu_go_pro" android:title="Donate"  android:icon="@drawable/donate"/>
+	<item android:id="@+id/menu_anti_sms_bomber" android:title="Anti Bomber" android:icon="@drawable/antibomber"/>
+	<item android:id="@+id/menu_sms_limitremoval" android:title="SMS Limit Removal"  android:icon="@drawable/sms_limit_removal"/>
+
+	<item android:id="@+id/menu_groupsms" android:title="Group SMS"  android:icon="@drawable/groupsms"/>
+	<item android:id="@+id/menu_blacklist" android:title="Black List"  android:icon="@drawable/blacklist"/>
+	<item android:id="@+id/menu_help" android:title="Help" android:icon="@drawable/help"/>
+
+</menu>

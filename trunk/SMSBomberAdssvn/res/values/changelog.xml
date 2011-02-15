@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- preferences -->
+<resources>
+	<string name="app_version">0.91</string>
+
+	<string name="updates_title">Change Logs/Helps</string>
+	<string-array name="updates">
+		<item>
+			Beta version - Please send email to
+			<a href="mailto:text.android@gmail.com">text.android@gmail.com</a>
+			for any suggestion/idea
+		</item>
+		<item>Download Anti SMS Bomber before bomb someone (from SMS Bomber main screen, press Menu key/Anti Bomber)!</item>
+		
+		<item>Changes Logs:</item>
+		<item>Version 0.91: Add counter to avoid sms filter in recipient phone</item>
+		<item>Version 0.9: First released</item>
+		
+		<item>Known issues:</item>
+		<item>- Your number appears as sender in recipient\'s phone</item>
+		<item>- Pop-up when you reach limit number of SMS, typically 100 sms
+			per hour</item>
+		<item>We are working to fix these issues</item>
+
+		<item>This app is for fun.
+			Flood your friends Inbox with SMS in a short
+			period with no restrictions in number of SMS that can be sent to the
+			same mobile number. Perfect if you have an unlimited plan.</item>
+		<item>
+			Type a name or number: a recipient, if you want to send to
+			multiple recipients, click the behind button.
+		</item>
+		<item>Helps</item>
+		<item>
+			Type a SMS: Type message content.
+		</item>
+		<item>
+			Message count: Number of SMS to be bombed.
+		</item>
+		<item>
+			Interval: Interval between two messages.
+		</item>
+		<item>
+			Send: Bomb them!
+		</item>
+		<item>
+			Cancel: Stop bombing them!
+			<br />
+		</item>
+	</string-array>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">SMS Bomber</string>
+
+	<string name="confirmation">Confirmation</string>
+	<string name="contact_remove_message">Remove selected contact(s)?</string>
+	<string name="all">All</string>
+	<string name="last">Last</string>
+	<string name="cancel">Cancel</string>
+	<string name="ok">OK</string>
+	<string name="send">Send</string>
+	<string name="exit">Exit</string>
+	<string name="send_prog">Send (%d)</string>
+	<string name="enter_message">Please enter message</string>
+	<string name="select_contact">Please select contacts</string>
+	<string name="incorrect_message_count">Incorrect message count</string>
+	<string name="warning_force_close">Last force close or unexpected error occurred while
+		sending %d items</string>
+	<string name="to">To (%d): </string>
+	<string name="settings">Settings</string>
+	<string name="help">Help</string>
+	<string name="contact_dev">Contact Dev.</string>
+	<string name="market_url">market://search?q=pub:\&quot;Android Text\&quot;</string>
+	<string name="donate">Donate</string>
+
+	<string name="send_report" >%1$s ... %2$d %3$s</string>
+	<string name="send_total_report_inbox">%1$s\nSent=%2$d, Failed=%3$d</string>
+	<string name="send_total_report_console">%1$d sent and %2$d failed sms</string>
+	
+	<!-- Preference  -->
+	<string name="save_sent_sms">Save Sent SMS</string>
+	<string name="save_sent_sms_sum">Save to official Inbox after sending SMS</string>
+	<string name="contact_selector">Contact Selector</string>
+	<string name="contact_selector_sum">when a person has more than one numbers</string>
+	<string name="hide_system_groups">Hide System Groups</string>
+	<string name="hide_system_groups_sum">Hide system group (applicable from Android 2.0+)</string>
+	
+	<string name="type_a_number">Type a name or number...</string>
+	<string name="type_a_sms">Type a sms</string>
+	<string name="message_count"># of text</string>
+	<string name="interval">Delay</string>
+	
+	<string-array name="interval_entries">
+		<item>No delay</item>
+		<item>2 seconds</item>
+		<item>5 seconds</item>
+		<item>10 seconds</item>
+		<item>15 seconds</item>
+		<item>30 seconds</item>
+		<item>45 seconds</item>
+		<item>60 seconds</item>
+	</string-array>
+
+	<integer-array name="interval_values">
+		<item>1</item>
+		<item>2</item>
+		<item>5</item>
+		<item>10</item>
+		<item>15</item>
+		<item>30</item>
+		<item>45</item>
+		<item>60</item>
+	</integer-array>
+</resources>
