@@ -4,7 +4,7 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 
-
+ 
 public abstract class Service {
 	public static final int STATUS_SEND_OK = 0;
 	public static final int STATUS_SEND_FAILED = 1;

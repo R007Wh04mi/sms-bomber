@@ -7,6 +7,7 @@ public class SMSService extends Service {
 	String message;
 	String username;
 	String password;
+	
 
 	// @Override
 	public int send(String number, String sms) {
