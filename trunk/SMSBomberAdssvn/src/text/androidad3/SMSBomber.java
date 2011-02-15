@@ -8,7 +8,7 @@ import org.baole.service.Service;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
-import android.content.ContentResolver;
+import android.content.ContentResolver;  
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -48,10 +48,10 @@ public class SMSBomber extends Activity implements OnClickListener {
 	private static final String PREFS_LAST_RUN = "lastrun";
 	private static final String MESSAGE = "message";
 	private static final String CONTACT = "contact";
-	private static final String COUNTER = "%counter%";
+	private static final String COUNTER = "%c%";
 
 	private static final String NUMBER = "NUMBER";
-	private static final String NAME = "NAME";
+	private static final String NAME = "NAME"; 
 
 	public int recent_numberItems = 3;
 

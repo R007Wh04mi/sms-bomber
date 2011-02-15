@@ -9,7 +9,7 @@ public class ContactHelperSdk5 extends ContactHelper {
 	private static final String[] PEOPLE_PROJECTION = new String[] {
 		Phone._ID, Phone.PHOTO_ID,
 		Phone.TYPE, Phone.NUMBER,
-		Phone.LABEL, Phone.DISPLAY_NAME};
+		Phone.LABEL, Phone.DISPLAY_NAME};  
 	
 	@Override
 	public Cursor getContactCursor() {

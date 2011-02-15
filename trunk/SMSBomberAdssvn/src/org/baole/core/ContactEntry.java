@@ -12,7 +12,7 @@ public class ContactEntry implements Parcelable {
 //	long id;
 	public int type;
 
-	public int describeContents() {
+	public int describeContents() { 
 		return 0;
 	}
 

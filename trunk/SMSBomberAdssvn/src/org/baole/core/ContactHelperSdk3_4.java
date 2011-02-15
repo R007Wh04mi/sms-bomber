@@ -16,7 +16,7 @@
 
 package org.baole.core;
 
-import text.androidad3.ContactHelper;
+import text.androidad3.ContactHelper; 
 import android.database.Cursor;
 import android.provider.Contacts;
 
